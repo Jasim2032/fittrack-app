@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Test files
+test_app.py
+pytest.ini
+
+# Local database
+fittrack.db
+*.db
+
+# Environment files
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Docs / project files (not needed in the image)
+*.md
+*.txt.bak
+
+# Virtual environment
+venv/
+env/
+.venv/
